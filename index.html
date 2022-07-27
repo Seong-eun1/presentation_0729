@@ -1,12 +1,28 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Portfolio</title>
-</head>
-<body>
-  <p>Hello, World!</p>
-</body>
+<html lang="ko">
+	<head>
+	    <meta charset="UTF-8">
+			<meta name="viewport" content="width=device-width, initial-scale=1.0">
+			<link href="css/main.css" rel="stylesheet">
+	    <title>Portfolio</title>
+	</head>
+
+	<body>
+
+	    <select id="select-lang" style="display:none;">
+	        <option value="ko-KR">한국어</option>
+	    </select>
+			<div class="title">
+				<h3>일조하다의 바코드를 통해 보는 세상</h3>
+			</div>
+			<div class="center img">
+				<img class="img_border" src="images/cola1.png" width="150" height="150" alt="">
+				<img class="img_border" src="images/cola2.png" width="150" height="150" alt="">
+			</div>
+			<div class="center">
+				<textarea id="text" class="textbox" readonly></textarea>
+				<button id="btn-read">읽기</button>
+			</div>
+	</body>
+	<script type="text/javascript" src="js/main.js"></script>
 </html>
