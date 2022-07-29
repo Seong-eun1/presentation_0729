@@ -3,7 +3,7 @@ const text = document.getElementById("text")
 const btnRead = document.getElementById("btn-read")
 
 document.addEventListener("DOMContentLoaded",function(){
-  text.value = '7월까지 달려오신 엘지니 여러분과 멘토님들 모두 수고하셨습니다!\n월간공유회 끝나고 야구 보면서 맥주 한 잔 해요\n해단식까지 화이팅!';
+  text.value = '7월까지 달려오신 엘지니 여러분과 멘토님들, 매니저님들 모두 수고하셨습니다!\n월간공유회 끝나고 야구 보면서 맥주 한 잔 해요\n해단식까지 화이팅!';
 
   btn_click();
 
@@ -11,7 +11,7 @@ document.addEventListener("DOMContentLoaded",function(){
 })
 
 function call() {
-  text.value = '7월까지 달려오신 엘지니 여러분과 멘토님들 모두 수고하셨습니다!\n월간공유회 끝나고 야구 보면서 맥주 한 잔 해요\n해단식까지 화이팅!';
+  text.value = '7월까지 달려오신 엘지니 여러분과 멘토님들, 매니저님들 모두 수고하셨습니다!\n월간공유회 끝나고 야구 보면서 맥주 한 잔 해요\n해단식까지 화이팅!';
 
   speak(text.value, {
       rate: 1,
